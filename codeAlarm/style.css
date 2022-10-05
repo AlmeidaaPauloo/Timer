@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  background-color: black;
+  text-align: center;
+}
+#container{
+  text-align: center;
+  
+}
+
+#inicio {
+  text-align: center;
+  padding-top: 400px;
+  background-color: black;    
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+#buttons{
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#buttons:hover{
+  cursor: pointer;
+}
+
+input, button {
+  margin: 2px;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.185);
+}
+
+input {
+  width: 60px;
+  text-align: center;
+}
+
+
+#timer {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.75rem;
+}
